@@ -23,7 +23,7 @@ jobs:
         # Using npm ci is generally faster than running npm install
         run: |
           cd my-app
-          npm ci
+          npm install
       - name: Build the app 🏗
         run: |
           cd my-app
